@@ -11,7 +11,8 @@
         -ms-grid-row: 3;
         -ms-grid-column: 1;
     }
-    .page-index.page-archive .archive-entries .archive-entry:nth-child(4) {
+    .page-index.page-archive .archive-entries .archive-entry:nth-child(4),
+    .page-index.page-archive .archive-entries>div {
         -ms-grid-row: 3;
         -ms-grid-column: 3;
     }
@@ -55,11 +56,13 @@
         -ms-grid-row: 1;
         -ms-grid-column: 3;
     }
-    .page-index.page-archive .hatena-urllist .urllist-item:nth-child(3) {
+    .page-index.page-archive .hatena-urllist .urllist-item:nth-child(3),
+    .page-index.page-archive .hatena-urllist>div {
         -ms-grid-row: 3;
         -ms-grid-column: 1;
     }
-    .page-index.page-archive .hatena-urllist .urllist-item:nth-child(4) {
+    .page-index.page-archive .hatena-urllist .urllist-item:nth-child(4),
+    .page-index.page-archive .hatena-urllist>div {
         -ms-grid-row: 3;
         -ms-grid-column: 3;
     }
